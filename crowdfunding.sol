@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.16;
 
-contract creater{
+contract Crowdfund{
 
     mapping(address => uint) public contributor;
     address public admin;
